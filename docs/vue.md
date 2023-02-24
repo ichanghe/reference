@@ -460,7 +460,7 @@ const open = ref(false);
   div{
     transition: height 0.1s linear;
     overflow: hidden;
-    height: v-bind(open ? '30px' : '0px');
+    height: v-bind("open ? '30px' : '0px'");
   }
 </style>
 ```
